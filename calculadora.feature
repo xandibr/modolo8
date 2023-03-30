@@ -5,35 +5,30 @@
             Quero usar a calculadora do sistema
             Para somar dois números
 
-            Cenário: Soma de 2 números
-            Dado que eu acesse a calculadora
-            Quando eu somar 2 + 2
-            Então o resultado deve ser
-
             Esquema do Cenário: Soma de 2 números
-            Quando eu digitar o <primeiro num>
-            E soma-lo ao <segundo num>
+            Quando eu escrever o primeiro num
+            E logo depois somar ao segundo num
             Então deve exibir o <resultado>
 
             Exemplos:
             | primeiro num | segundo num | resultado |
-            | "1"          | "0"         | "1"       |
-            | "1"          | "1"         | "2"       |
-            | "1"          | "2"         | "3"       |
-            | "1"          | "3"         | "4"       |
-            | "1"          | "4"         | "5"       |
-            | "1"          | "5"         | "6"       |
-            | "1"          | "6"         | "7"       |
-            | "1"          | "7"         | "8"       |
-            | "1"          | "8"         | "9"       |
-            | "1"          | "9"         | "10"      |
-            | "1"          | "10"        | "11"      |
-            | "1"          | "11"        | "12"      |
-            | "1"          | "12"        | "13"      |
-            | "1"          | "13"        | "14"      |
-            | "1"          | "14"        | "15"      |
-            | "1"          | "15"        | "16"      |
-            | "1"          | "16"        | "17"      |
-            | "1"          | "17"        | "18"      |
-            | "1"          | "18"        | "19"      |
-            | "1"          | "19"        | "20"      |
+            |1             |0            |1          |
+            |12            |3            |15         |
+            |3             |4            |7          |
+            |-5            |1            |-4         |
+            |3000          |500          |3500       |
+            |750           |3            |753        |
+            |-450          |-20          |-470       |
+            |23            |4            |27         |
+            |-1000         |-5000        |-6000      |
+            |8500          |500          |9000       |
+            |7             |-2           |5          |
+            |-50           |6            |-44        |
+            |5             |5            |10         |
+            |8888          |-8888        |0          |
+            |100           |50           |150        |
+            |801           |1            |802        |
+            |6             |3            |9          |
+            |25            |5            |30         |
+            |-70           |50           |-20        |
+            |-20           |-20          |-40        |
